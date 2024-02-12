@@ -1,0 +1,148 @@
+.summaryContent{
+    height: 20vh;
+    width: 42vw;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px;
+}
+
+.detailedEmployeeSummary{
+    height: 20vh;
+    width: 20vw;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px;
+}
+
+.teamCalender{
+    height: 32vh;
+    width: 85.5vw;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px;
+}
+
+.attendenceContent{
+    color:yellow;
+    width:35vw ;
+    height:6vh;
+    border-radius: 3px;
+    border: 1px solid yellow;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.calenderMonth{
+    color:yellow;
+    width:78vw ;
+    height:6vh;
+    border-radius: 3px;
+    border: 1px solid yellow;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.dot {
+    width: 12px;
+    min-width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.bg-accent-purple {
+    background-color: #cb7cc0!important;
+}
+
+
+.labelClass{
+    color:#ffffff;
+    opacity:0.7;
+    font-size: 1vw;
+}
+
+.border-color-aqua{
+    border-left: 3px solid  #64c3d1;
+    border-color: #64c3d1!important;
+}
+
+.employeeContent{
+    height: 35vh;
+    width: 27vw;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px;
+}
+
+.employeeContent:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-color: #3498db;
+}
+
+.img-initials{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(100, 195, 209);
+    border-radius: 50%;
+}
+
+
+.headerModal{
+    background-color:#1b2531 !important;
+    height: 10vh !important;
+    color: #ffffff;
+    width: 70vw;
+   
+}
+
+.modalBody{
+    background-color: #273143 !important;
+    color: #ffffff;
+    width: 70vw;
+    height: 88vh;
+}
+
+.modalFooter{
+    background-color: #273143 !important;
+    color: #ffffff;
+    width: 70vw;
+}
+
+.CloseModalButton{
+    border-radius: 3px;
+    border: 1px solid  #404E63;
+    background-color:#1b2531 !important;
+    width: 6vw;
+    height: 8vh;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.updateModalButton{
+    border-radius: 3px;
+    border: 1px solid  #404E63;
+    background-color:#2986CE !important;
+    width: 6vw;
+    height: 8vh;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.modalContent{
+    width: 100vw !important;
+}
+
+.employeeSearchModal{
+    width:100%;
+    height:8vh;
+    border-radius: 2px;
+    border: 1px solid gray;
+    outline: none;
+    background-color: #273143;
+    color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid;
+  }

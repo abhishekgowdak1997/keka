@@ -1,0 +1,735 @@
+.meSection {
+  height: 90vh;
+  width: 100%;
+  background-color: #1b2531;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.menuSec {
+  width: 100%;
+  height: 6vh;
+  background-color: #2f394c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.unSelectedMenuItem {
+  width: 10%;
+  height: 100%;
+  color: #a2a9b4;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+.unSelectedMenuItem:hover {
+  color: #fff;
+}
+.selectdMenuItem::before{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 33%;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid;
+  border-left: 7px solid transparent;
+  border-bottom-color: #2986ce;
+}
+.leaveSecContainer {
+  width: 96%;
+  height: 98%;
+  /* padding: 2% 2% 0 2%; */
+}
+.headingText {
+  font-size: 1.2rem;
+}
+.leaveRequestSecMain {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.leaveRequestSec {
+  height: 18vh;
+  background-color: #273143;
+  border: 1px solid #2d3749;
+  border-radius: 5px;
+  display: flex;
+}
+.leaveRequestSecLeft {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+.leaveRequestSecRight {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.linkStyle {
+  font-size: 0.8rem;
+  margin: 0 10px;
+  color: #76618b;
+  text-decoration: none;
+  cursor: pointer;
+}
+.myLeaveStatsMain {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.myLeaveStats {
+  height: 45vh;
+  background-color: #273143;
+  border: 1px solid #2d3749;
+  border-radius: 5px;
+  display: flex;
+}
+.myLeaveStatsLeft {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.myLeaveStatsMid {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+.myLeaveStatsRight {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.leaveBalancesMain {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.leaveBalances {
+  height: 60vh;
+  width: 32%;
+  background-color: #273143;
+  border: 1px solid #2d3749;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+
+  padding-top: 1%;
+}
+.leaveBalanceHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.leaveTableData {
+  border-top: 1px solid #a2a9b4;
+  display: flex;
+  flex-direction: row;
+  height: 21vh;
+}
+.leftTb {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+}
+.topLeft {
+  height: 50%;
+  border-bottom: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.topLeft span:first-child {
+  font-size: 0.7rem;
+  margin-left: 10%;
+  color: #a2a9b4;
+}
+.topLeft span:last-child {
+  font-size: 1rem;
+  margin-left: 10%;
+  color: #fff;
+}
+.bottomLeft,
+.bottomRight {
+  border: none;
+}
+.rightTb {
+  width: 50%;
+  height: 100%;
+  border-left: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+}
+.topRight {
+  height: 50%;
+  border-bottom: 1px solid grey;
+  padding-left: 2%;
+}
+.requestLeaveBtn {
+  width: 50%;
+  height: 35px;
+  margin: 10px;
+  background-color: #76618b;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.subText {
+  font-size: 0.7rem;
+  color: #a2a9b4;
+}
+.emptyBoxImg {
+  height: 80px;
+  width: 80px;
+  margin-left: 2rem;
+}
+.leaveHistorySec {
+  height: 15vh;
+  width: 100%;
+}
+.leaveHistoryMain {
+  height: 15vh;
+  width: 100%;
+  background-color: #273143;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #2d3749;
+}
+.leavehistoryBox {
+  width: 95%;
+  height: 10vh;
+  background-color: #1b2531;
+  border-radius: 5px;
+  border: 1px solid #76618b;
+  color: #8f75a8;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 1%;
+}
+.sectionHeading {
+  padding-left: 5%;
+  font-size: 0.9rem;
+}
+.chartContainer {
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+}
+.attendanceSecContainer {
+  width: 96%;
+  height: 98%;
+  padding: 1% 2% 0 2%;
+}
+.attendanceTopSec {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.attendanceStatsSec {
+  width: 30%;
+}
+.attendanceStatsMain {
+  width: 100%;
+  background-color: #2d3749;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #3d506d;
+  border-radius: 5px;
+}
+.actionsMainSec {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.actionLeftSec {
+  width: 45%;
+  height: 100%;
+  margin: 3% 2%;
+  display: flex;
+  flex-direction: column;
+ gap: 8px;
+}
+.actionLeftSec span {
+  font-size: 0.8rem;
+}
+.actionRightSec {
+  width: 45%;
+  margin: 0% 2%;
+}
+.liveTime {
+  width: 70%;
+  border: 1px solid #5f697c;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1rem;
+  padding: 5px;
+}
+.actionRightSec button {
+  background-color: #ef5e5e;
+  border-radius: 0.2rem;
+  height: 40px;
+  width: 90%;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+}
+.dailyTimingWeekMain {
+  width: 98%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+.attendanceMenu {
+  width: 100%;
+  height: 10vh;
+  background-color: #2f394c;
+}
+.profilePic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  width: 30%;
+}
+.userDPStyle {
+  color: #ffff00;
+  font-size: 1.5rem;
+  border: 1px solid #111;
+  border-radius: 100%;
+}
+
+.attendanceBottomSec {
+  width: 100%;
+}
+.logHeader {
+  width: 100%;
+  height: 8vh;
+  background-color: #2f394c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+}
+.attendanceLogSec {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #a2a9b4;
+}
+.attendanceLogSec:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.attendanceLogSec:hover {
+  color: #fff;
+}
+.selectedLogSec {
+  background-color: #76618b;
+  color: #fff;
+}
+.attendanceLogTable {
+  width: 100%;
+  height: 100%;
+
+  color: #fff;
+}
+.tableLogHeader {
+  height: 10vh;
+  width: 100%;
+  padding: 0 2%;
+  background-color: #273143;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.monthSelected {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.unselectedMonthLog {
+  height: 80%;
+  width: 100%;
+  border: 1px solid #a2a9b4;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+.selectedMonthLog {
+  background-color: #76618b;
+}
+.tableLogSubHeader {
+  width: 100%;
+  height: 8vh;
+  background-color: #1b2531;
+  border: 1px solid #a2a9b4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dateText,
+.effectiveHours,
+.grossHours,
+.arrival,
+.logTimeOut {
+  width: 15%;
+  text-align: center;
+}
+.attendanceVisiual {
+  width: 30%;
+  text-align: center;
+}
+.tableContent {
+  height: 10vh;
+  width: 100%;
+  padding: 0 2%;
+  background-color: #273143;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.attendanceStatsMainMid {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.avgHoursStyle {
+  width: 37%;
+}
+.avgHours {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.attendanceStatsMainSubTop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 8%;
+}
+.attendanceStatsMainTop {
+  margin: 0 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.horizontalLine {
+  width: 90%;
+  border-color: #565960;
+}
+.usersDPStyle {
+  color: chartreuse;
+  font-size: 1.5rem;
+}
+.infoTooltip {
+  color: #a2a9b4;
+  font-size: 1rem;
+}
+.dailyTimingWeek {
+  width: 76%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 2%;
+}
+.timingDays {
+  height: 25px;
+  width: 25px;
+  background-color: #2f394c;
+  border: 1px solid #565960;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #83959d;
+  font-size: 0.8rem;
+}
+.timingDaysHolidays {
+  background-color: #273143;
+}
+.timingDaysSelected {
+  background-color: #64c3d1;
+  color: #fff;
+  height: 25px;
+  width: 25px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  
+}
+.trackingImg {
+  color: #c4c3c3;
+  font-size: 1.3rem;
+  margin: 0 0.3rem;
+  cursor: pointer;
+}
+.trackingImg:hover {
+  color: #76618b;
+}
+.todayTiming {
+  margin-top: 50px;
+  margin-left: 5%;
+}
+.todayTimingText {
+  font-size: 0.8rem;
+}
+.timingStatusBar {
+  height: 10px;
+  width: 90%;
+  margin-left: 5%;
+  background-color: #64c3d1;
+  border: 1px solid #3d506d;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.timingStatusBarMid {
+  height: 100%;
+  width: 15%;
+  background-color: #415c6c;
+}
+.timingDurationMain {
+  width: 90%;
+  margin: 0 5%;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  color: #b4b2b2;
+}
+
+/* ----------Scrollbar------------ */
+.meSection::-webkit-scrollbar {
+  width: 5px;
+}
+
+.meSection::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+.meSection::-webkit-scrollbar-thumb {
+  background: #8f75a8;
+  border: 1px solid #565960;
+  border-radius: 10px;
+}
+
+.meSection::-webkit-scrollbar-thumb:hover {
+  background: #76618b;
+}
+
+#dropdown-leave{
+  background-color: #273143 !important;
+  width: 18.5vw;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #2986CE;
+}
+
+.workingHours{
+  display: none;
+  position: absolute;
+  top: 100%;
+  height:auto;
+  width: 15vw;
+  right: 5%;
+  left: 100%;
+  background-color: #333d4e;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: start;
+  color:#ffffff;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.infoTooltip:hover .workingHours {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+  right:10%;
+  z-index: 1;
+}
+
+
+
+.infoTooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+.workingHours div {
+  padding: 12px;
+  text-align: start;
+}
+
+.myperformance{
+  background-color: #2986CE ;
+  padding: 15px;
+}
+
+.myPerformanceInactive{
+  padding: 15px;
+}
+
+.noDataFound{
+  height:15vh;
+  width:64vw;
+  background-color: #273143;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.feedbacksData{
+  height:45vh;
+  width:86vw;
+  background-color: #273143;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.requestFeedbackButton{
+  height:6vh;
+  width:12vw;
+  background-color: #2986CE ;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 1px solid #2986CE;
+  text-align: center;
+  font-size: 14px;
+}
+
+.pipData{
+  height:50vh;
+  width:86vw;
+  background-color: #273143;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.performanceNavbarSec {
+  background-color: #2f394c;
+  color: #ffffff;
+  font-size: 1vw;
+  gap: 2rem;
+  width:86vw;
+  border-radius: 2px;
+}
+
+.expensesAndTravelSec{
+  background-color: #2f394c;
+  color: #ffffff;
+  font-size: 1vw;
+  gap: 2rem;
+  width:86vw;
+  height:15vh;
+  border-radius: 4px;
+  border: 1px solid gray;
+}
+
+.workFromHomeModal{
+  display: flex !important;
+  justify-content: end !important;
+}
+
+.dateFieldModal {
+  border: 1px solid #384252;
+ border-radius: 4px;
+  height: 14vh;
+}
+
+.dateField{
+  background-color: rgb(39, 49, 67);
+  border-radius: 2px;
+  border: none;
+  width:14vw;
+  outline: none;
+  color: #ffffff;
+}
+
+.textAreaField{
+  background-color:  rgb(39, 49, 67);
+  border-radius: 4px;
+}
+
+.searchEmployeeInputField{
+  background-color:  rgb(39, 49, 67);
+  border-radius: 4px;
+  width:36vw;
+  height: 7vh;
+  outline: none;
+  border: 1px solid #384252;
+}
+
+.requestButton{
+  background-color: #2986CE;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #404e63;
+  color:#ffffff;
+  cursor: pointer;
+}
+
+.cancelButton{
+  border-radius: 4px;
+  border: 1px solid #404e63;
+  background-color: #1b2531 !important;
+  padding: 5px;
+  color: #ffffff;
+}
+
+@media (min-width: 576px) {
+.modal {
+    --bs-modal-margin: 0rem;
+    --bs-modal-box-shadow: var(--bs-box-shadow);
+}
+}
+
+
+
+
+
+

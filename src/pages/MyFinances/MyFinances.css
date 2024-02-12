@@ -1,0 +1,239 @@
+.payroll{
+    height: 15vh;
+    width: 85vw;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px;
+}
+
+.paymentHistory{
+    height: 48vh;
+    width: 40vw;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px;
+}
+
+.horizontalLine{
+    border: 1px solid gray;
+    opacity: 0.8;
+}
+
+.identityHistory{
+    height: auto;
+    width: 40vw;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px;
+}
+
+.statutoryHistory{
+    height: 45vh;
+    width: 40vw;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px;
+}
+
+.mySalaryContent{
+    height: 15vh;
+    width: 35vw;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px;
+}
+
+.payrollContent{
+    height: 15vh;
+    width: 50vw;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px;
+}
+
+.timeline{
+    height: 45vh;
+    width: 87vw;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px;
+}
+
+#dropdown-basic{
+    background-color: #273143 !important;
+    width: 20vw;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #273143;
+}
+
+.payslipsContainer{
+    height:35vh;
+    width:20vw;
+    background-color: #273143;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.payslipsContent{
+    height:auto;
+    width:64vw;
+    background-color: #273143;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.totalAmountContent{
+    background-color: #1B2531;
+}
+.dropdown-menu{
+    width: auto;
+}
+
+.investment{
+    background-color: #273143;
+    border: 1px solid #384252;
+    border-radius: 5px;
+    height: 12vh;
+}
+
+.TaxPayable{
+    background-color: #273143;
+    border: 1px solid #384252;
+    border-radius: 5px;
+    height: 15vh;
+    width: 28.5vw;
+}
+
+.formFiling{
+    background-color: #273143;
+    border: 1px solid #384252;
+    border-radius: 5px;
+    height: 18vh;
+    width: 86vw;
+}
+
+#dropdown-basic-form{
+    background-color: #273143 !important;
+    width: 15vw;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #384252;
+    border-radius: 1px;
+}
+
+.generateButton{
+    background-color: #2986CE;
+    border-radius: 4px;
+    border: #2986CE;
+    color:#ffffff;
+    
+}
+
+.declarationNavbarSec {
+    background-color: #2f394c;
+    color: #ffffff;
+    font-size: 1vw;
+    gap: 2rem;
+    width: 88vw;
+    border-radius: 2px;
+}
+
+.myDeclarationContent{
+    background-color:  #2f394c;
+    width: 88vw;
+    border-radius: 5px;
+}
+
+.headerDeclaration{
+    background-color: #1b2531;
+    border: 1px solid  #384252;
+    border-radius: 1px;
+    height: 5vh;
+    font-size: 14px;
+}
+
+.filingSection{
+    background-color:  #273143;
+    width: 88vw;
+    border-radius: 5px;
+    border: 1px solid  #384252;
+}
+
+.dotted{
+    width: 8px;
+    height: 8px;
+    background-color: #98b433;
+    border-radius: 50%;
+}
+
+.lastDate{
+    background-color:  #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px;
+
+}
+
+.previousIncomeTable{
+    width: 88vw;
+    height: 70vh;
+    background-color:  #273143;
+    border: 1px solid  #A2A9B4;
+    border-radius: 2px;
+
+}
+
+.headerSection{
+    background-color:#1b2531 ;
+    border:1px solid #A2A9B4 ;
+    opacity: 0.7;
+    height: 6vh;
+    border-collapse: collapse;
+}
+
+.inputNumber{
+    width:3vw;
+    height:5vh;
+    background-color:  #273143;
+    border:1px solid #A2A9B4 ;
+    outline: none;
+    color: #ffffff;
+}
+
+.tableBody:hover{
+    background-color: #404e63;
+}
+
+.houseRent{
+    background-color:  #273143;
+    border: 1px solid #384252;
+    border-radius: 4px;
+    width: 60vw;
+    border-width: 1px;
+}
+
+.houseDeclaration{
+    background-color:  #273143;
+    border: 1px solid #384252;
+    border-radius: 4px;
+    width: 25vw;
+    border-width: 1px;
+}
+
+.incomeSource{
+    background-color:  #273143;
+    border: 1px solid #384252;
+    border-radius: 4px;
+    border-width: 1px;
+    /* height: 12vh; */
+}
+
+
+
+/* .tableBody{
+    border:1px solid  #384252 ;
+} */

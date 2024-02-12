@@ -1,0 +1,32 @@
+
+.inputBoxContent{
+    outline: none;
+    width: 25vw;
+    height: 8vh;
+  }
+    
+    .loginForm {
+      width: 30vw;
+      height: 85vh;
+    }
+    
+    .loginButton {
+      background-color:#2986ce;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      width: 25vw;
+      height: 8vh;
+    }
+    
+    .loginButton:hover {
+      background-color:#2986ce;
+    }
+  
+    .captchaBoxContent{
+      outline: none;
+    width: 16vw;
+    height: 8vh;
+    }
+    

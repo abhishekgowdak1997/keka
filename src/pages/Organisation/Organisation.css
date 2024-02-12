@@ -1,0 +1,287 @@
+.treeBoard{
+    height: 15vh;
+    width: 10vw;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 2px; 
+}
+
+.css-edq960{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.employeeSearch{
+    outline: none;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 4px;
+    color: #ffffff;
+    width:25%;
+    height:6vh
+}
+
+.imageUpload{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(100, 195, 209);
+    border-radius: 50%;
+}
+
+.inputSearch{
+    width: 20vw;
+    height: 7vh;
+    outline: none;
+    background-color: #273143;
+    border: 1px solid  #384252;
+    border-radius: 3px;
+    color: #ffffff;
+
+}
+
+.documentsFile{
+    background-color: #273143;
+    border: 1px solid  #384252;
+    width: 20vw;
+    cursor:pointer
+}
+
+.documentsFileActive{
+    background-color: #293D56;
+    border: 1px solid  #384252;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.documentContent{
+    background-color:  #273143;
+    border: 1px solid #384252;
+    border-radius: 4px;
+    border-width: 1px;
+    width:65vw
+}
+
+.codeOfConduct{
+    height: 12vh;
+    background-color: #273143;
+}
+
+.publishedArticle{
+    width:86vw;
+    height:45vh;
+    background-color:  #273143;
+    border-radius: 4px;
+    border: 1px solid #384252;
+}
+
+.inputSearchArticle{
+    background-color:  #273143;
+    width: 86vw;
+    height:8vh;
+    border: 1px solid #384252;
+    border-radius: 4px;
+    color: #ffffff;
+    outline: none;
+}
+
+.horizontalLine{
+    border-bottom: 1px solid  #384252;
+}
+
+.createNewArticle{
+    background-color:  #2986CE;
+    height: 7vh;
+    width: 12vw;
+    color: #ffffff;
+    border: 1px solid #2986CE;
+    border-radius: 4px;
+}
+
+.headerSectionArticle{
+   background-color: #1b2531;
+   font-size: 14px;
+}
+
+.announcementPage{
+    width: 22vw;
+    height: 55vh;
+    background-color: #273143;
+    border: 1px solid #384252;
+    border-radius: 4px;
+    overflow-y: scroll;
+
+}
+
+.noAnnouncement{
+    width: 64vw;
+    height: 58vh;
+    background-color: #273143;
+    border: 1px solid #384252;
+    border-radius: 4px;
+}
+
+.optionSec{
+    background-color: #1b2531;
+}
+
+.inputSearchAnnouncement{
+    background-color:  #273143;
+    border: none;
+    outline: none;
+    color:#ffffff
+}
+
+.announcementLine{
+    border: 1px solid #384252;
+}
+
+.announcementLineActive{
+    border: 1px solid #2986CE;
+}
+
+/* label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 55px;
+    height: 24px;
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+  }
+  
+  label:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+  
+  input:checked + label {
+    background: #bada55;
+  }
+  
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+  
+  label:active:after {
+    width: 24px;
+  } */
+
+  .dateRange{
+    width: 18vw;
+    height: 7vh;
+    background-color: #273143;
+    border: 1px solid #384252;
+    color: #ffffff;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  #dropdown-basic-announcement{
+    background-color: #273143 !important;
+  width: 17.5vw;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid  #384252 ;
+  opacity: 0.5;
+  }
+
+  .dropdownMenusAnnouncement{
+    width: 16.5 !important;
+  }
+
+  .announcementPage::-webkit-scrollbar-thumb {
+    background: #A2A9B4;
+    border: 1px solid #565960;
+    border-radius: 10px;
+  }
+
+  .announcementPage::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .addHeader{
+    background-color: #273143 ;
+    height: 14vh;
+    width:60vw;
+    border-radius: 4px;
+  }
+
+  .addHeaderInput{
+    background-color: #273143 ;
+    height: 10vh;
+    width:60vw;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    color:#ffffff;
+    border-radius: 4px;
+
+  }
+
+  .quillEditor{
+    background-color: #273143 ;
+    height: 30vh;
+    width:60vw;
+  }
+
+  .editorStyle{
+    padding: 35px 15px !important;
+    border: none !important;
+  }
+
+  .addFile{
+    background-color: #273143 ;
+    height: 14vh;
+    width:60vw;
+    border-radius: 4px;
+  }
+
+  .publishOption{
+    background-color: #273143 ;
+    height: 70vh;
+    width:26vw;
+    border-radius: 4px;
+  }
+
+  .selectCategory{
+    height: 25vh;
+    border: 1px solid #384252;
+  }
+
+  .inputTags{
+    outline: none;
+    border: 1px solid #384252;
+    border-radius: 4px;
+    height: 6vh;
+    width:23vw;
+    background-color:  #273143;
+  }
+
+  .publishButton{
+    background-color:#2986CE;
+    border-radius: 4px;
+    border: 1px solid #2986CE;
+    color:#ffffff;
+    font-size: 14px;
+ }
+
+ .saveDraftButton{
+    color:#2986CE;
+    font-size: 14px;
+    border: 1px solid #384252;
+    border-radius: 4px;
+    background-color: #273143 ;
+}
+
+ 

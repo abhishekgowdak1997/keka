@@ -1,0 +1,137 @@
+.homeScreenContainer {
+  height: 100vh;
+  width: 100%;
+  background-color: #1b2531;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  overflow-y: hidden;
+}
+.sidebarHome {
+  width: 8%;
+  height: 100vh;
+  background-color: #273143;
+}
+.logoSection {
+  width: 100%;
+  height: 8vh;
+  background-color: #2986CE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  opacity: 0.5;
+}
+.unSelected {
+  width: 100%;
+  height: 65px;
+  color: #a2a9b4;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.unSelected:hover {
+  color: #fff;
+  background-color: #333d4e;
+}
+.selectedSec {
+  color: #fff;
+  background-color: #333d4e;
+}
+
+.mainSecHome {
+  width: 92%;
+  height: 100vh;
+}
+.mainSecTop {
+  width: 100%;
+  height: 8vh;
+  background-image: url(https://cdn.kekastatic.net/shared/assets/images/components/page-header/2.png);
+  background-color:#2986CE;
+  display: flex;
+  align-items: center;
+  padding: 0 2%;
+}
+.mainSecBottom {
+  overflow-y: auto;
+}
+
+.filteredContent{
+  border-radius: 8px;
+  background-color: #1b2531;
+  height:60px;
+  width: 400px;
+  border: 1px solid #273143;
+  color: #6e859d;
+  outline: none;
+  font-size: 12px;
+}
+
+
+
+/* styles.css */
+
+.hoverAppear {
+  display: none;
+  position: absolute;
+  top: 100%;
+  height:auto;
+  width: 11vw;
+  right: 5%;
+  left: 100%;
+  background-color: #333d4e;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: start;
+  border-radius: 2px;
+  font-size: 13px;
+  color:#ffffff
+}
+
+.unSelected:hover .hoverAppear {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+  right:10%;
+  z-index: 1;
+  color:#ffffff;
+  opacity: 1;
+}
+
+.unSelected {
+  position: relative;
+  cursor: pointer;
+}
+
+.hoverAppear div {
+  padding: 12px;
+  text-align: start;
+}
+
+#dropdown-name{
+      --bs-btn-bg: none;
+     --bs-btn-border-color: none;
+     --bs-btn-hover-bg: none;
+     --bs-btn-active-bg: none;
+}
+
+.mypayAppear{
+  width: 10vw;
+  height: auto;
+  background-color: #333d4e;
+}
+
+.mypayAppear:hover{
+  width: 10vw;
+  height: auto;
+  background-color: #333d4e;
+}
+
+
+
+
+
+
